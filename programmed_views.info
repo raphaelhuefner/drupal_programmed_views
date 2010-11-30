@@ -1,0 +1,22 @@
+; $Id$
+name = Programmed Views
+description = Makes handling views in code easier.
+package = Views
+
+; system
+core = 6.x
+php = 5.2
+
+; Views
+dependencies[] = views
+
+; CCK
+dependencies[] = content
+dependencies[] = number
+dependencies[] = text
+dependencies[] = nodereference
+dependencies[] = userreference
+;dependencies[] = content_copy 
+;dependencies[] = content_permissions
+
+

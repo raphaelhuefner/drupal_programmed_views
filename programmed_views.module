@@ -1,0 +1,7 @@
+<?php
+// $Id$
+
+function programmed_views_new($type='node') {
+  require_once(dirname(__FILE__) . '/programmed_views.class.php');
+  return new programmed_views($type);
+}
